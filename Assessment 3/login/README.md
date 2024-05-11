@@ -62,7 +62,15 @@ This will run the frontend application at `http://localhost:3000`.
 
    Once both frontend and backend servers are running, you can access the application at `http://localhost:3000` in your web browser. Enter your username and password, and click the "Login" button to submit the credentials. The application will display a success message if the login is successful, or an error message if the login fails.
 
+This is the output of the login page
+
+!(Screenshots/1.png)
 
 
-   
-   
+If the login is failed
+
+!(Screenshots/2.png)
+
+If the login is success
+
+!(Screenshots/3.png)

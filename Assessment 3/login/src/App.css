@@ -19,7 +19,6 @@ body {
   width: 400px;
   padding: 20px;
   margin-top: 50px; 
-
 }
 
 h1 {
@@ -28,7 +27,7 @@ h1 {
 }
 
 .form input {
-  border: 2px solid transparent;
+  border: 2px solid rgb(198, 229, 250);
   border-radius: 4px;
   display: block;
   font-size: 14px;
