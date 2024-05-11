@@ -64,7 +64,7 @@ This will run the frontend application at `http://localhost:3000`.
 
 This is the output of the login page
 
-!(Screenshots/1.png)
+![Login Page](Screenshots/1.png)
 
 
 If the login is failed
