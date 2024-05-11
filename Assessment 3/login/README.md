@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# React Login App with Flask API
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a simple login application built using React for the frontend and Flask API with Python for the backend. It allows users to input their username and password, sends the credentials to the backend server for authentication, and displays a success or failure message based on the response from the server.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- User-friendly login interface
+- Real-time validation for username and password fields
+- Feedback messages for successful or failed login attempts
+- Integration with Flask API for backend authentication
 
-### `npm start`
+## Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Before running the application, make sure you have the following installed on your system:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Node.js and npm (for React frontend)
+- Python (for Flask backend)
+- Flask and Flask-CORS (for setting up the API)
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Frontend (React)
 
-### `npm run build`
+1. Clone this repository to your local machine:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   git clone https://github.com/ms-maheswari/Python-Assessment
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Navigate to the `react-login-app` directory:
+   
+   cd react-login-app
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Install dependencies using npm:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Start the React development server:
 
-## Learn More
+   npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This will run the frontend application at `http://localhost:3000`.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Backend (Flask API)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+1. Install Flask and Flask-CORS:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   pip install flask flask-cors
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+2. Start the Flask server:
+   
+   python app.py
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+   This will run the Flask API server at `http://localhost:5000`.
 
-### Deployment
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+   Once both frontend and backend servers are running, you can access the application at `http://localhost:3000` in your web browser. Enter your username and password, and click the "Login" button to submit the credentials. The application will display a success message if the login is successful, or an error message if the login fails.
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+   
+   
